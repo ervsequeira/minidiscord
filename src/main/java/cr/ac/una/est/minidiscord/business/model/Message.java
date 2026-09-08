@@ -17,5 +17,8 @@ public class Message implements Serializable {
         return author.getUsername() + ":" + content;
     }
 
+    public User getAuthor() { return author; }
+    public String getContent() { return content; }
+
 }
 
