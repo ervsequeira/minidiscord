@@ -1,6 +1,7 @@
 module cr.ac.una.est.minidiscord {
     requires javafx.controls;
     requires javafx.fxml;
+    requires java.desktop;
 
     opens cr.ac.una.est.minidiscord.presentation.controller to javafx.fxml;
 
